@@ -1,0 +1,84 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.icon{
+    text-align: center;
+    padding: 30px;
+}
+
+ul{
+   list-style-type: none; 
+}
+
+.credentials{
+    display: flex;
+    justify-content: center;
+}
+
+.main-section{
+    max-width: 600px;
+    border: rgba(192, 187, 187, 0.5) solid 1px;
+    padding: 0px 20px 20px 20px;
+}
+
+.pw-text-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sign-in-form{
+    width: 400px;
+    height: 25px;
+}
+
+.submit-button{
+    width: 408px;
+    height: 31px;
+    background-color: #f7c548ff;
+    border:rgba(192, 187, 187, 1) solid 1px;
+}
+
+.submit-button:hover{
+    background-color: rgb(243, 220, 162);
+    border:rgb(100, 96, 96) solid 1px;
+}
+
+.new-user-stuff{
+    display: flex;
+    justify-content: center;
+}
+
+.new-account-button{
+    width: 408px;
+    height: 31px;
+}
+
+.tricky-line{
+    height: 1px;
+    background-color: rgba(75, 72, 72,0.5);
+    border: none;
+}
+
+.tricky-line-text{
+    position: relative;
+    text-align: center;
+    bottom: 28px;
+    background-color: white;
+    width: 150px;
+    margin-left: 31%;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links > li{
+    padding: 0px 30px 0px 0px;
+}
+
+.footer-content-subcontainer{
+    text-align: center;
+}
